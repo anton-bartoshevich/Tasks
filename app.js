@@ -1,16 +1,11 @@
 
-let getMin = function(a,b) {
-    a = prompt('Введите число a:');
-    b = prompt('Введите число b:');
-    if ( a > b) {
-        alert(b);
-    }
-    else if (b > a) {
-        alert(a);
-    }
-
+let getPow = function(x,n) {
+    x = prompt('Введите число');
+    n = prompt('Введите степень');
+    let result = Math.pow(x,n);
+    return result;
 }
-alert(getMin());
+alert(getPow());
 
 
 
