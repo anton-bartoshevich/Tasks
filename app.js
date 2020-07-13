@@ -1,8 +1,13 @@
 
-let langName = prompt('Какое официальное название у языка Javascript?',"");
-if (langName == 'ECMAScript') {
-        alert('Верно!');
+let numb = prompt('Введите число:',"");
+if (numb > 0) {
+alert('1');
 }
-else {
-    alert('Не знаете?ECMAScript!');
+
+else if ( numb < 0 ) {
+    alert('-1');
+}
+
+else if (numb == 0) {
+    alert('0');
 }
