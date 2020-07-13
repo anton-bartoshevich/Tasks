@@ -1,11 +1,16 @@
 
-function checkAge(age) {
-    return (age > 18) ? true:confirm('Родители разрешили?');
-    
+let getMin = function(a,b) {
+    a = prompt('Введите число a:');
+    b = prompt('Введите число b:');
+    if ( a > b) {
+        alert(b);
+    }
+    else if (b > a) {
+        alert(a);
+    }
+
 }
-
-alert(checkAge());
-
+alert(getMin());
 
 
 
