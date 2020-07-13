@@ -1,23 +1,11 @@
-let login = prompt('Введите логин:',"");
-if (login == 'Админ') {
-    let pass = prompt('Введите пароль:',"");
-        if (pass == 'Я главный') {
-                alert('Здравствуйте!');
-        }
-        else if (pass != 'Я главный') {
-                alert('Неверный пароль');
-        }
-        else if (pass == null) {
-            alert('Отменено');
-        }
-    }
-else if (login == null) {
-        alert('Отменено');
-    }  
-else if (login != 'Админ') {
-    alert('Я вас не знаю');
-}
+let num = 0;
 
+for (let i = 2; i <= 10; i+=2) 
+{
+  num = num + i;
+  alert(num);
+  num = 0;
+}
 
 
 
