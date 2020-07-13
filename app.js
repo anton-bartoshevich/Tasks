@@ -1,13 +1,6 @@
+let a = prompt('Введите число a');
+let b = prompt('Введите число b');
+let result;
 
-let numb = prompt('Введите число:',"");
-if (numb > 0) {
-alert('1');
-}
-
-else if ( numb < 0 ) {
-    alert('-1');
-}
-
-else if (numb == 0) {
-    alert('0');
-}
+result = (a + b < 4)?'Мало':'Много';
+alert(result);
