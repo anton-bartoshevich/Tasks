@@ -1,6 +1,17 @@
-let a = prompt('Введите число a');
-let b = prompt('Введите число b');
-let result;
+let login = prompt('Кто вы?',"");
+let message;
+message = (login == 'Сотрудник')?'Привет' :
+          (login == 'Директор')?'Здравствуйте' :
+          (login == '')?'Нет логина':
+          '';
+alert(message);
 
-result = (a + b < 4)?'Мало':'Много';
-alert(result);
+
+
+
+
+
+
+
+
+
