@@ -1,13 +1,22 @@
-let salaries = {
-    John: 100,
-    Ann: 160,
-    Pete: 130
-  };
-  let sum = 0;
-  for (let key in salaries) {
-      sum = salaries[key1] + salaries[key2] + salaries[key3];
-      }
-  alert(sum);
+let calculator = {
+	
+    sum : function () {
+            return  this.a + this.b;					
+        },
+
+    mul : function ()  {				
+            return  this.a *  this.b;						
+        },
+
+    read : function () {
+        this.a =  + prompt('Введите число а', 0);
+this.b =  + prompt('Введите число b', 0);											
+        }	
+};
+
+calculator.read();
+alert(calculator.sum());
+alert(calculator.mul());
 
 	
    
