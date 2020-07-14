@@ -1,1 +1,1 @@
-let a;
+alert('Я - Javascript!');
