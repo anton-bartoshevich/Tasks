@@ -1,14 +1,14 @@
-# Resume
-# Бартошевич Антон
+const simpleNumber = () => {
+    back:
+    for(let i = 2; i <= 10; i++) {
+        console.log("i", i );
+        for(let a = 2; a < i; a++) {
+            console.log("a", a);
+            if (i%a == 0) continue back;
+        }
+        console.log("Простое число", i);
+    }
+}
 
-*Минск* **+375-33-904-87-55 (МТС)**
->Найти компанию, в которой я смогу реализовать свой потенциал с максимальной пользой как для компании, так и для себя
-- Windows
-- Linux
-- C++
-- Javascript
-- HTML
-- CSS  
-Military Academy of Republic of Belarus  
-The IT-Academy names Ivanchikov Ilya
-### Junoir
+simpleNumber();
+
