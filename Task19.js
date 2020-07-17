@@ -10,4 +10,3 @@ let salaries = {
       sum = salaries[key1] + salaries[key2] + salaries[key3];
       }
   alert(sum);
-dasda
